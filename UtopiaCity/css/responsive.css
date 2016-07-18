@@ -1,0 +1,109 @@
+
+/* Media Queries for responsiveness*/
+
+@media only screen and (min-width:1024px) and (max-width: 1200px) {
+
+	.contentLeft, .contentRight{
+		width: 100%;
+		float: none;
+		margin: 0;
+	}
+
+	.contentLeft{
+		margin-bottom: 20px;
+	}
+
+	.memberList{
+		padding: 0;
+	}
+
+	.memberList > li {
+	    margin-left: 3%;
+	}
+
+	.guide{
+		padding: 0;
+	}
+
+	.guideContent {
+    	width: 800px;
+    	padding-top: 1px;
+    	padding-bottom: 30px;
+	}
+
+	.guideContent > ul > li {
+    	margin-right: 11px;
+	}
+
+	.guideWrapperSix{
+		display: none;
+	}
+
+	.galleryBlocks{
+		width: 778px;
+	}
+
+	.galleryBlockOne, .galleryBlockTwo, .galleryBlockThree, .twitterContent, .facebookContent{
+		width: 234px;
+	}
+
+	.liveFlickr {
+    width: 700px;
+	}
+
+	.liveFlickrEight, .liveFlickrNine{
+		display: none;
+	}
+}
+
+
+@media only screen and (min-width:768px) and (max-width: 992px) {
+	.about{
+		padding: 75px 30px 85px 30px;
+	}
+
+	.contentLeft{
+		float: none;
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+
+	.contentRight{
+		float: none;
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.memberList > li:nth-child(1), .memberList > li:nth-child(2) {
+   		margin-bottom: 40px;
+	}
+
+	.memberList > li:nth-child(3) {
+    	margin-left: 0;
+	}
+
+
+	.galleryBlocks{
+		width: 520px;
+	}
+
+	.galleryBlockOne, .galleryBlockTwo, .galleryBlockThree{
+		float: none;
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.twitterContent, .facebookContent{
+		float: none;
+		width: 100%;
+	}
+
+	.guideContent{
+		width: 520px;
+	}
+
+	.guideContent > ul > li {
+    	margin-right: 9px;
+	}
+}
