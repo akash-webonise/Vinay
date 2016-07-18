@@ -1,0 +1,379 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  display: block;
+}
+
+.clear{
+  clear: both;
+}
+
+
+.clearfix:before,
+.clearfix:after{
+  display: table;
+  content: "";
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+.leftFloat{
+  float: left;
+}
+
+.rightFloat{
+  float: right;
+}
+
+.container{
+  background-color: #fcfcfc;
+}
+
+.assetsContainer{
+  width: 1168px;
+  margin: 20px auto;
+  border: 1px solid #cccccc;
+}
+
+.assetsHeader{
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.assetsMenu{
+  width: 884px;
+}
+
+.assetsMenu li{
+  float: left;
+  border-right: 1px solid #d7d7d7;
+  background-color: #fafafa;
+}
+
+.assetsMenu li.activeTab{
+  background-color: #ffffff;
+  margin-bottom: -1px;
+}
+
+.assetsMenu li.activeTab a{
+  color: #4e4e4e;
+  font-weight: 500;
+  margin-top: 1px;
+}
+
+.assetsMenu li a{
+  font-size: 16px;
+  line-height: 18px;
+  color: #999999;
+  font-weight: 500;
+  padding: 14px 20px;
+}
+
+.assetsMenu li a label{
+  font-size: 13px;
+  line-height: 22px;
+  color: #afafaf;
+  background-color: #eaeaea;
+  padding: 1px 13px;
+  border-radius: 12px;
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.assetsMenu li.activeTab a label{
+  background-color: #999999;
+  color: #ffffff;
+}
+
+.tagSearch{
+  float: left;
+  width: 284px;
+}
+
+.tagSearch input{
+   outline: none;
+   border: none;
+}
+
+.searchBtn{
+  background: #ffffff url("../images/search_icon.png") center no-repeat;
+
+  width: 52px;
+  padding: 17px 0 18px 10px;
+  text-align: center;
+  cursor: pointer;
+  float: left;
+}
+
+.searchInput{
+  font-size: 14px;
+  line-height: 24px;
+  color: #aaaaaa;
+  padding: 13px 10px 13px 0;
+  float: left;
+  width: 220px;
+}
+
+.assetsContent{
+  background-color: #ffffff;
+}
+
+.serversNav{
+  border-bottom: 1px solid #dddddd;
+}
+
+.serversNav li{
+  float: left;
+}
+
+.serversNav li a{
+  font-size: 16px;
+  line-height: 18px;
+  color: #1166ee;
+  font-weight: 500;
+  padding: 21px 26px;
+  border-bottom: 2px solid transparent;
+}
+
+.serversNav li.activeLink a{
+  border-bottom: 2px solid #ed1651;
+}
+
+.virtualServerHeader{
+  border-bottom: 1px solid #dddddd;
+  padding: 9px 19px 9px 19px;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 400;
+  color: #aaaaaa;
+  font-family: 'Arial', sans-serif;
+}
+
+.leftAlign{
+  float: left;
+  margin-left: 25px;
+
+}
+
+.downArrow{
+  background-image: url("../images/down_arrow.png");
+  width: 8px;
+  height: 4px;
+  margin-left: 8px;
+  display: inline-block;
+  vertical-align: baseline;
+  margin-bottom: 1px;
+}
+
+.serialNum{
+  width: 104px;
+}
+
+.barCode{
+  width: 106px;
+}
+
+.typeMake{
+  width: 97px;
+}
+
+.typMakeHeading,
+.rackHeading{
+  display: inline-block;
+}
+
+.typMakeHeading span,
+.privateIpHeading span,
+.rackHeading span{
+  display: block;
+}
+
+.typeMake .downArrow,
+.rack .downArrow{
+  vertical-align: top;
+  margin-top: 7px;
+}
+
+.privateIP{
+  width: 226px;
+}
+
+
+.location{
+  width: 76px;
+}
+
+.rack{
+  width: 80px;
+}
+
+.warranty{
+  width: 100px;
+}
+
+.virtualServerList{
+  padding: 21px 19px 29px 19px;
+}
+
+.virtualServerList li{
+  margin-bottom: 38px;
+}
+
+.virtualServerList li:nth-child(3){
+  margin-bottom: 0;
+}
+
+.virtualServerList h4{
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #ed1651;
+  margin-bottom: 8px;
+
+}
+
+.accordianHeader{
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #666666;
+  padding: 18px 22px 20px 0;
+}
+
+.accordianHeader span{
+  display: block;
+}
+
+.accordianHeader .serialNum a{
+  font-weight: 500;
+  text-decoration: underline;
+  color: #1166ee;
+}
+
+.accordianBtn{
+  float: right;
+}
+
+.accordianBtn span{
+  background: url(../images/accordian_open_btn.png) no-repeat;
+  width: 0;
+  height: 10px;
+  margin: 7px 0;
+  padding: 5px 9px 6px 5px;
+}
+
+.accordianBtn.active span{
+  background: url(../images/accordian_close_btn.png) no-repeat;
+  width: 21px;
+  height: 21px;
+  margin: 7px 0;
+  padding: 0;
+  
+}
+
+.accordianData{
+  display: none;
+  border: 1px solid #cccccc;
+  border-top: none;
+  padding: 20px 24px 20px 24px;
+
+}
+
+.accordianData label{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #aaaaaa;
+  margin-bottom: 7px;
+}
+
+.accordianData span{
+  display: block;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.accordianData .leftFloat{
+  margin-right: 20px;
+}
+
+.hwId{
+  width: 239px;
+  margin-bottom: 28px;
+}
+
+.hostName{
+  width: 208;
+  margin-bottom: 28px;
+}
+
+.ownedBy{
+  width: 252px;
+  margin-bottom: 28px;
+}
+
+.assignTo{
+  width: 252px;
+  margin-bottom: 28px;
+}
+
+.osVersion{
+  width: 238px;
+}
+
+.tag{
+  width: 100px;
+}
+
+.tag a{
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #1166ee;
+}
